@@ -1,0 +1,46 @@
+.now-schedule {
+  height: 150px;
+  display: flex;
+  align-self: center;
+  align-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #202020;
+  color: #fff;
+}
+
+.now-time {
+  font-size: 15px;
+}
+
+.now-event {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center;
+}
+
+.now-event-text {
+  font-size: 40px;
+}
+
+.now-event-ex {
+  font-size: 10px;
+}
+
+.schedule {
+  color: #000;
+}
+
+.true {
+  color: #c0c0c0;
+}
+
+.past-schedule li {
+  font-size: 20px;
+  border-bottom: #c0c0c0 solid 1px;
+}
+
+.event-time {
+  font-size: 10px;
+}
