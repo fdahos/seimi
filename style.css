@@ -34,6 +34,10 @@ p {
   margin: 0 auto;
 }
 
+.kiuchi {
+  display: none;
+}
+
 .crest-img {
   width: 100%;
   height: 100%;
