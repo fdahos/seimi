@@ -112,3 +112,29 @@ footer h2 {
 .hotel {
   margin-bottom: 50px;
 }
+
+.table {
+  margin-top: 10px;
+}
+
+table {
+  width: 50%;
+  min-width: 200px;
+  margin: 0 auto;
+  font-size: 15px;
+  border-collapse: collapse;
+  border-color: #202020;
+  box-sizing: border-box;
+}
+
+th {
+  line-height: 200%;
+}
+
+.name {
+  width: 30%;
+}
+
+.text {
+  width: 70%;
+}
