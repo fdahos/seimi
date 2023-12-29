@@ -1,5 +1,5 @@
 const past_event = () => {
-  let time = new Date("2023/12/29 17:55:00");
+  let time = new Date();
   let schedule = [
     [false, "チェックイン", "16:00", new Date("2023/12/29 16:00:00")],
     [false, "志ほ川集合", "17:50", new Date("2023/12/29 17:50:00")],
@@ -15,7 +15,7 @@ const past_event = () => {
 };
 
 const now_event = () => {
-  let time = new Date("2023/12/29 17:55:00");
+  let time = new Date();
   let result = "準備中";
   let schedule = [
     ["ホテル", new Date("2023/12/29 20:00:00")],
