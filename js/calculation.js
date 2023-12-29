@@ -6,7 +6,7 @@ const past_event = () => {
     [false, "食事", "18:00", new Date("2023/12/29 18:00:00")],
     [false, "ホテル", "20:00", new Date("2023/12/29 20:00:00")],
   ];
-  for (let i = 0; i < schedule.length - 1; i++) {
+  for (let i = 0; i < schedule.length; i++) {
     if (schedule[i][3] <= time) {
       schedule[i][0] = true;
     }
