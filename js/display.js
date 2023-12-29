@@ -14,3 +14,11 @@ setInterval(() => {
     }</li>`;
   }
 }, 500);
+
+window.addEventListener("load", () => {
+  let time = new Date();
+  let kiuchi = document.getElementById("kiuchi").style;
+  if (time >= new Date("2023/12/29 20:00:00")) {
+    kiuchi.display = "block";
+  }
+});
