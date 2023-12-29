@@ -23,7 +23,7 @@ const now_event = () => {
     ["志ほ川集合", new Date("2023/12/29 17:50:00")],
     ["チェックイン", new Date("2023/12/29 16:00:00")],
   ];
-  for (let i = 0; i < schedule.length - 1; i++) {
+  for (let i = 0; i < schedule.length; i++) {
     if (schedule[i][1] <= time) {
       result = schedule[i][0];
       break;
